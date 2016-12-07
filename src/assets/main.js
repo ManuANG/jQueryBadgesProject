@@ -1,6 +1,5 @@
 $(function() {
-//https://www.codeschool.com/users/2680248
-  // your code will go here
+
   $.ajax({
       url: 'https://www.codeschool.com/users/2680248.json',
       dataType: 'jsonp',
@@ -32,10 +31,6 @@ $(function() {
           href:course.url,
           text:'See Course'
         }).appendTo($course);
-
-
-
-
-      })
-    }
+      });
+    };
 });
